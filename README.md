@@ -23,7 +23,7 @@ https://github.com/collaborativebioinformatics/Haploblock_Clusters
 
 ### Abstract
 
-Haplotype analysis plays a critical role in understanding genetic variation and evolutionary relationships. This study presents a computational pipeline that integrates haplotype data processing, ancestral recombination graph (ARG) reconstruction, and machine learning techniques to explore genetic similarity and clustering among samples. Leveraging phased variant call format (VCF) files from chromosomes 6, 8, 21, and 22 of the 1000 Genomes Project, we converted the data into haplotype (HAP) format using Plink2 and applied preprocessing steps to standardize the input.
+Haplotype analysis plays a critical role in understanding genetic variation and evolutionary relationships. This study presents a computational pipeline on DNANexus that integrates haplotype data processing, ARG reconstruction, and machine learning techniques to explore genetic similarity and clustering among samples. We used SHAPEIT2 phased variant call format (VCF) files from chromosomes 6, 8, 21, and 22 of the 1000 Genomes Project, we converted the data into haplotype (HAP) format using Plink2 and applied preprocessing steps to standardize the input for ARG Needle.
 
 <<TBD>>
 
