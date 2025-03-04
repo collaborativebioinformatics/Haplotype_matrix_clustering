@@ -58,7 +58,6 @@ dx upload ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snp
 rm -rf ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes*
 }
 # run on each chromosome
-# run on each chromosome
 plink_hap_snp_reformat_dx_upload "chr6"
 plink_hap_snp_reformat_dx_upload "chr8"
 plink_hap_snp_reformat_dx_upload "chr21"
