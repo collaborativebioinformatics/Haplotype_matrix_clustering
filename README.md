@@ -47,6 +47,9 @@ The HAP files were preprocessed with the following steps:
 - The IDs in columns ID1 and ID2 were made identical.
 - Unique IDs were assigned to variants with missing identifiers.
 - The maximum allele length was set to 280 to standardize input data.
+- Combining it with columns 2-4 from the original sample file.
+- Creating a new sample file with the modified format.
+
 
 
 ![image](flowchart.png)
