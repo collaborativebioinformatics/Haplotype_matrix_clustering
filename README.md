@@ -43,8 +43,8 @@ The VCF files were converted into haplotype (HAP) format using Plink2.
 
 The HAP files were preprocessed with the following steps:
 
-- Space delimitation was enforced.
-- The IDs in columns ID1 and ID2 were made identical.
+- Space delimitation was enforced as required by ARG-Needle.
+- The IDs in columns ID1 and ID2 were made identical via copying ID2 to ID1.
 - Unique IDs were assigned to variants with missing identifiers.
 - The maximum allele length was set to 280 to standardize input data.
 - Combining it with columns 2-4 from the original sample file.
