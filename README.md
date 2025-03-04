@@ -15,7 +15,7 @@
 ![CMU hackathon group 1 lucidchart](https://github.com/user-attachments/assets/de67dcf8-faa6-4e37-90f7-c5f1a2e6d4a0)
 
 ### Previous Work
-https://github.com/collaborativebioinformatics/Haploblock_Clusters
+https://github.com/collaborativebioinformatics/Haploblock_Clusters\
 [Nucleate Pittsburgh 2024](https://github.com/ShijieTang/BioHack_Haplotype)
 
 
