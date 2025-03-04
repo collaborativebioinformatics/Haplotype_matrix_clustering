@@ -24,4 +24,6 @@ arg_needle --hap_gz /mnt/project/data/hap/ALL.chr21.phase3_shapeit2_mvncall_inte
 --out chr21 \
 --mode sequence \
 --chromosome 21
+# make correct map file with bash/Unix coreutils one liner
+paste <(cut -f1,2 -d' ' ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.haps) <(yes "0" | head -n1054447) <(cut -f3 -d' ' ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.haps)
 
