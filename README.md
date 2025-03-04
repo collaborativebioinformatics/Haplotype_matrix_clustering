@@ -22,10 +22,10 @@ Haplotype analysis plays a critical role in understanding genetic variation and 
 
 ### Related / Previous Works
 
-[Haploblock Clusters](https://github.com/collaborativebioinformatics/Haploblock_Clusters)
+[BCM HGSC / DNAnexus Hackathon 2024 - Haploblock Clusters](https://github.com/collaborativebioinformatics/Haploblock_Clusters)
 
 
-[Nucleate Pittsburgh 2024](https://github.com/ShijieTang/BioHack_Haplotype)
+[Nucleate Pittsburgh 2024 - BioHack Haplotype](https://github.com/ShijieTang/BioHack_Haplotype)
 
 ### Methods
 
