@@ -29,6 +29,12 @@ https://github.com/collaborativebioinformatics/Haploblock_Clusters
 
 ### Methods
 
+In this study, we developed a pipeline to analyze haplotype data from the 1000 Genomes Project and apply machine learning techniques for clustering and similarity analysis. The methodology is outlined as follows:
+
+#### Step 1: Getting the Data
+
+We utilized phased variant call format (VCF) files for chromosomes 6, 8, 21, and 22 from the 1000 Genomes Project. These VCF files were pre-phased using SHAPEIT2. We selected chr 6 as it was used by prior groups, chr 8 as it contains beta defensin and chr 21/22 due to their smaller sizes allowing for test processing.
+
 ![image](flowchart.png)
 
 ### Results
