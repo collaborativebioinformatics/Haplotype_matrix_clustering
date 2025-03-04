@@ -10,17 +10,6 @@
 - Avish Jha
 - Francesco Andreace
 
-### Flowchart
-
-<!-- ![CMU hackathon group 1 lucidchart](https://github.com/user-attachments/assets/de67dcf8-faa6-4e37-90f7-c5f1a2e6d4a0) -->
-
-### Previous Work
-https://github.com/collaborativebioinformatics/Haploblock_Clusters
-
-
-[Nucleate Pittsburgh 2024](https://github.com/ShijieTang/BioHack_Haplotype)
-
-
 ### Abstract
 
 Haplotype analysis plays a critical role in understanding genetic variation and evolutionary relationships. This study presents a computational pipeline on DNANexus that integrates haplotype data processing, ARG reconstruction, and machine learning techniques to explore genetic similarity and clustering among samples. We used SHAPEIT2 phased variant call format (VCF) files from chromosomes 6, 8, 21, and 22 of the 1000 Genomes Project, we converted the data into haplotype (HAP) format using Plink2 and applied preprocessing steps to standardize the input for ARG Needle.
@@ -31,9 +20,12 @@ Haplotype analysis plays a critical role in understanding genetic variation and 
 
 <<TBD>>
 
-### Related Works
+### Related / Previous Works
 
-<<TBD>>
+[Haploblock Clusters](https://github.com/collaborativebioinformatics/Haploblock_Clusters)
+
+
+[Nucleate Pittsburgh 2024](https://github.com/ShijieTang/BioHack_Haplotype)
 
 ### Methods
 
