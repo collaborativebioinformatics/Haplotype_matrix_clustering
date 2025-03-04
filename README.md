@@ -50,7 +50,7 @@ The HAP files were preprocessed with the following steps:
 - Combining it with columns 2-4 from the original sample file.
 - Creating a new sample file with the modified format.
 
-
+#### Step 4: Generating ARGs
 
 ![image](flowchart.png)
 
