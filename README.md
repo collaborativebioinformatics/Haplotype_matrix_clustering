@@ -35,6 +35,20 @@ In this study, we developed a pipeline to analyze haplotype data from the 1000 G
 
 We utilized phased variant call format (VCF) files for chromosomes 6, 8, 21, and 22 from the 1000 Genomes Project. These VCF files were pre-phased using SHAPEIT2. We selected chr 6 as it was used by prior groups, chr 8 as it contains beta defensin and chr 21/22 due to their smaller sizes allowing for test processing.
 
+#### Step 2: Converting the Data
+
+The VCF files were converted into haplotype (HAP) format using Plink2. 
+
+#### Step 3: Preprocessing the Data
+
+The HAP files were preprocessed with the following steps:
+
+- Space delimitation was enforced.
+- The IDs in columns ID1 and ID2 were made identical.
+- Unique IDs were assigned to variants with missing identifiers.
+- The maximum allele length was set to 280 to standardize input data.
+
+
 ![image](flowchart.png)
 
 ### Results
