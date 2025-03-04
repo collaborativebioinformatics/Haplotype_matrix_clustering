@@ -37,7 +37,7 @@ Haplotype analysis plays a critical role in understanding genetic variation and 
 
 ### Methods
 
-In this study, we developed a pipeline to analyze ![haplotype data from the 1000 Genomes Project](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) and apply machine learning techniques for clustering and similarity analysis. The methodology is outlined as follows:
+In this study, we developed a pipeline to analyze [haplotype data from the 1000 Genomes Project](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) and apply machine learning techniques for clustering and similarity analysis. The methodology is outlined as follows:
 
 #### Step 1: Getting the Data
 
