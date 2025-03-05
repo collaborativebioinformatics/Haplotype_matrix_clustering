@@ -66,7 +66,7 @@ Running clustering analysis/hierarchical clustering on haps data...
 
 ### Results
 
-To characterize the haplotypes based on clinical significance, we used the vcf files to isolate biallelic SNPS, then used OpenCravat to annotate chromosomes with ClinVar ACMG annotation.
+To characterize the haplotypes based on clinical significance, we used the vcf files to isolate biallelic SNPs, then used OpenCravat to annotate chromosomes with ClinVar ACMG annotation.
 
 <<TBD>>
 
