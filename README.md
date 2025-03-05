@@ -2,6 +2,8 @@
 
 > CMU Machine Learning and AI Approaches to Multimodal Problems in CompBio Hackathon 2025 - Group 1
 
+**Presentation Link:** [Google Slides](https://docs.google.com/presentation/d/1yswnVX3BMrS1aOnd0naY-LS3eOf_zn3z601ta6-wqNg/edit?usp=sharing)
+
 **Team Members:** 
 
 - Jon Moller
