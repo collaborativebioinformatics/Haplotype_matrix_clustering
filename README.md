@@ -81,7 +81,7 @@ One potential cause of the problems we’ve been experiencing with ARG-needle in
 
 ### References
 
-Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. Nature Genetics, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
+Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. *Nature Genetics*, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
 
 #### Packages/Tools Used
 
