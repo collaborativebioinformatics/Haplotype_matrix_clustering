@@ -60,7 +60,7 @@ To additionally prepare the data for generation of ARGs, a map file was addition
 
 Clustering/unsupervised machine learning pipelines were initially established using the ARGN file generated from the example SNP data described in the ARG-Needle [manual](https://palamaralab.github.io/software/argneedle/manual/#quickstart).
 
-A tree visualization method for the ARGs that extends the efforts of prior hackathon teams was similarly produced from the ARG-Needle example SNP data using tskit.
+A tree visualization method for the ARGs that extends the efforts of prior hackathon teams was similarly initially produced from the ARG-Needle example SNP data using tskit.
 
 ### Results
 
