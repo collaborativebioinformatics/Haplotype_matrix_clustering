@@ -62,9 +62,11 @@ A tree visualization method for the ARGs that extends the efforts of prior hacka
 
 Running clustering analysis/hierarchical clustering on haps data...
 
+To characterize the haplotypes based on clinical significance, we used the vcf files to isolate biallelic SNPs, then wrote code to use OpenCravat to annotate chromosomes with ClinVar ACMG annotation.
+
 ### Results
 
-To characterize the haplotypes based on clinical significance, we used the vcf files to isolate biallelic SNPs, then used OpenCravat to annotate chromosomes with ClinVar ACMG annotation.
+![image](1000g_pca.webp)
 
 <<TBD>>
 
