@@ -66,9 +66,11 @@ To characterize the haplotypes based on clinical significance, we used the vcf f
 
 ### Results
 
+#### PCA Characterization of 1000 Genomes Data
 ![image](1000g_pca.webp)
 
 [Population Abbreviations](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_populations.md)
+Whole-genome data of all 1000 Genomes participants was processed in PLINK2 to exclude high linkage disequilibrium (LD) regions, pruning for independent SNPs, and PCA was run for dimension reduction of low-LD SNPs to reveal population overlap patterns.
 
 #### DEFB1
 ![image](DEFB1.png)
@@ -79,6 +81,8 @@ To characterize the haplotypes based on clinical significance, we used the vcf f
 X-axis: Variants in each possible 1KG haplotype
 Y-axis: 1KG individuals
 Next step: annotate based on population/subpopulation on Y-axis (colors)
+
+x-axis- clustering by individual; y- clustering by SNPs
 
 ### Discussion
 
