@@ -72,7 +72,7 @@ Although we were able to establish methods to perform clustering and annotation 
 
 One potential cause of the problems we’ve been experiencing with ARG-needle in this project could be because we’ve been trying to work with a highly diverse population from the 1000 Genomes project. ARG construction with ARG-needle relies on threading of samples into the graph based on similarity to other individuals, but ARG-needle was primarily tested on samples from the UK Biobank [(Zhang et. al 2023)](https://www.nature.com/articles/s41588-023-01379-x), representing a highly homogenous population. For our purposes, selecting a more homogenous subpopulation from the 1000 Genomes data on which to run ARG construction could work better.
 
-
+Additional potential approaches to this issue could include using alternative tools like [GenoTools](https://github.com/dvitale199/GenoTools) or using brute-force generation similarity matrices from haplotype data.
 <<TBD>>
 
 ### References
