@@ -79,7 +79,9 @@ Additional potential approaches to this issue could include using alternative to
 
 ### References
 
-Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. *Nature Genetics*, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
+[1] Vitale, D., Koretsky, M. J., Kuznetsov, N., Hong, S., Martin, J., James, M., Makarious, M. B., Leonard, H., Iwaki, H., Faghri, F., Blauwendraat, C., Singleton, A. B., Song, Y., Levine, K., Kumar-Sreelatha, A. A., Fang, Z.-H., & Nalls, M. (2025). GenoTools: an open-source Python package for efficient genotype data quality control and analysis. G3 Genes|Genomes|Genetics, 15(1), jkae268. https://doi.org/10.1093/g3journal/jkae268
+
+[2] Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. *Nature Genetics*, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
 
 #### Packages/Tools Used
 
