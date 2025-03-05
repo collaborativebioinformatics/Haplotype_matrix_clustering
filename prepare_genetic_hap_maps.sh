@@ -11,13 +11,13 @@ interpolate-genetic-position.out -i ALL.chr21.phase3_shapeit2_mvncall_integrated
 # prep hap map function
 prep_hap_maps () {
 # keep only first of duplicated positions so that map is monotonically increasing
-plink2 --haps /mnt/project/data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.haps --rm-dup force-first --out ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps --make-bed
+plink2 --haps /mnt/project/data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.haps --out ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps --make-bed
 interpolate-genetic-position.out -i ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.bim -p bim -g /mnt/project/data/ARGs/genetic_map_hg19.txt -m bolt -o ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.map -f map
 # remove duplicate positions with plink 1.9
 # plink --map ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.map --list-duplicate-vars suppress-first
 # get unique positions
-uniq -f3 ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.map > ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.unique.map 
-dx upload ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.unique.map --path /data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.map
+# uniq -f3 ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.map > ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.unique.map 
+dx upload ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.interpolated.map --path /data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.dedup_snps.map
 }
 # if necessary
 conda activate igp
