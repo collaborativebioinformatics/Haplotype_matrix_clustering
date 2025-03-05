@@ -10,13 +10,9 @@
 - Avish Jha
 - Francesco Andreace
 
-### Abstract
+### Introduction
 
 Haplotype analysis plays a critical role in understanding genetic variation and evolutionary relationships. This study presents a computational pipeline on DNANexus that integrates haplotype data processing, ancestral recombination graph (ARG) reconstruction, and machine learning techniques to explore genetic similarity and clustering among samples. We used SHAPEIT2 phased variant call format (VCF) files from chromosomes 6, 8, 21, and 22 of the 1000 Genomes Project, converted the data into haplotype (HAP) format using Plink2, and applied preprocessing steps to standardize the input for ARG Needle. We also filtered chromosome 6 haplotypes for TNF and HLA-A variants and chromosome 8 for beta defensin, as TNF is one of the least variable genes in the human genome, while HLA-A and beta defensin are amongst the most variable. We obtained 61, 313, and 486 deduplicated biallelic SNPs for TNF, HLA-A, and beta defensin, respectively. We then performed hierarchical clustering and similarity matrix calculation from these gene-specific haplotypes.
-
-<<TBD>>
-
-### Introduction
 
 <<TBD>>
 
