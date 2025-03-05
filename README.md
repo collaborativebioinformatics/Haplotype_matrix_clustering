@@ -90,3 +90,5 @@ Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023)
 [tskit](https://tskit.dev/tskit/docs/stable/introduction.html)
 
 [interpolate-genetic-position](https://github.com/lightning-auriga/interpolate-genetic-position)
+
+[OpenCravat](https://docs.opencravat.org/en/latest/)
