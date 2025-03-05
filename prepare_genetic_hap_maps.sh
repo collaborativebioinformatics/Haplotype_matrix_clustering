@@ -13,7 +13,9 @@ prep_hap_maps () {
 # keep only first of duplicated positions so that map is monotonically increasing
 plink2 --haps /mnt/project/data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.haps --rm-dup force-first --out ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps --make-bed
 interpolate-genetic-position.out -i ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.bim -p bim -g /mnt/project/data/ARGs/genetic_map_hg19.txt -m bolt -o ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.interpolated.map -f map
-dx upload ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.interpolated.map --path /data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.map
+# remove duplicate positions with plink 1.9
+plink --map ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.interpolated.map --list-duplicate-vars
+# dx upload ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.interpolated.map --path /data/hap/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps.map
 }
 # if necessary
 conda activate igp
