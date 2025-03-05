@@ -12,7 +12,7 @@
 
 ### Abstract
 
-Haplotype analysis plays a critical role in understanding genetic variation and evolutionary relationships. This study presents a computational pipeline on DNANexus that integrates haplotype data processing, ARG reconstruction, and machine learning techniques to explore genetic similarity and clustering among samples. We used SHAPEIT2 phased variant call format (VCF) files from chromosomes 6, 8, 21, and 22 of the 1000 Genomes Project, converted the data into haplotype (HAP) format using Plink2, and applied preprocessing steps to standardize the input for ARG Needle.
+Haplotype analysis plays a critical role in understanding genetic variation and evolutionary relationships. This study presents a computational pipeline on DNANexus that integrates haplotype data processing, ancestral recombination graph (ARG) reconstruction, and machine learning techniques to explore genetic similarity and clustering among samples. We used SHAPEIT2 phased variant call format (VCF) files from chromosomes 6, 8, 21, and 22 of the 1000 Genomes Project, converted the data into haplotype (HAP) format using Plink2, and applied preprocessing steps to standardize the input for ARG Needle.
 
 <<TBD>>
 
@@ -31,13 +31,15 @@ Haplotype analysis plays a critical role in understanding genetic variation and 
 
 In this study, we developed a pipeline to analyze [haplotype data from the 1000 Genomes Project](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) and apply machine learning techniques for clustering and similarity analysis. The methodology is outlined as follows:
 
+![image](flowchart.png)
+
 #### Step 1: Getting the Data
 
 We utilized phased variant call format (VCF) files for chromosomes 6, 8, 21, and 22 from the 1000 Genomes Project. These VCF files were pre-phased using SHAPEIT2. We selected chr 6 as it was used by prior groups, chr 8 as it contains beta defensin, a highly variable gene involved in microbial immune response, and chr 21/22 due to their smaller sizes allowing for test processing.
 
 #### Step 2: Converting the Data
 
-The VCF files were converted into haplotype (HAP) format using Plink2. 
+The VCF files were converted into the Oxford phased haplotype file (HAP/.haps) format using PLINK2. 
 
 #### Step 3: Preprocessing the Data
 
@@ -52,7 +54,13 @@ The HAP files were preprocessed with the following steps:
 
 #### Step 4: Generating ARGs
 
-![image](flowchart.png)
+To additionally prepare the data for generation of ARGs, a map file was additional required...
+
+#### Step 5: Clustering Analysis and Visualization
+
+Clustering/unsupervised machine learning pipelines were initially established using the ARGN file generated from the example SNP data described in the ARG-Needle [manual](https://palamaralab.github.io/software/argneedle/manual/#quickstart).
+
+A tree visualization method for the ARGs that improves on the efforts of prior hackathon teams was similarly produced from the ARG-Needle example SNP data using tskit.
 
 ### Results
 
@@ -63,3 +71,11 @@ The HAP files were preprocessed with the following steps:
 <<TBD>>
 
 ### References
+
+#### Packages/Tools Used
+
+[PLINK2](https://www.cog-genomics.org/plink/2.0/)
+
+[ARG-Needle](https://palamaralab.github.io/software/argneedle/) and [source publication](https://www.nature.com/articles/s41588-023-01379-x)
+
+[tskit](https://tskit.dev/tskit/docs/stable/introduction.html)
