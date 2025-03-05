@@ -92,3 +92,7 @@ Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023)
 [interpolate-genetic-position](https://github.com/lightning-auriga/interpolate-genetic-position)
 
 [OpenCravat](https://docs.opencravat.org/en/latest/)
+
+[DNANexus](https://platform.dnanexus.com/)
+
+[JupyterLab](https://jupyter.org/)
