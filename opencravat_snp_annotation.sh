@@ -6,3 +6,11 @@ bcftools view -v snps -m2 -M2 -O v -o ALL.chr6.phase3_shapeit2_mvncall_integrate
 
 # Run annotation for build hg19
 oc run ALL.chr6.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_snps.vcf -d . -l hg19
+# takes too long
+
+# Load needed annotation module
+oc module install clinvar_acmg
+
+# Try to annotate only with ClinVar ACMG annotation data
+oc run ALL.chr6.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_snps.vcf -d . -l hg19 -a clinvar_acmg
+
