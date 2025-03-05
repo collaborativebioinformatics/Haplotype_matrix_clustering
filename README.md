@@ -70,9 +70,15 @@ To characterize the haplotypes based on clinical significance, we used the vcf f
 
 [Population Abbreviations](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_populations.md)
 
+#### DEFB1
 ![image](DEFB1.png)
 
+#### HLA
 ![image](HLA.png)
+
+X-axis: Variants in each possible 1KG haplotype
+Y-axis: 1KG individuals
+Next step: annotate based on population/subpopulation on Y-axis (colors)
 
 ### Discussion
 
