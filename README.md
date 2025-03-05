@@ -35,7 +35,7 @@ In this study, we developed a pipeline to analyze [haplotype data from the 1000 
 
 #### Step 1: Getting the Data
 
-We utilized phased variant call format (VCF) files for chromosomes 6, 8, 21, and 22 from the 1000 Genomes Project. These VCF files were pre-phased using SHAPEIT2. We selected chr 6 as it was used by prior groups, chr 8 as it contains beta defensin, a highly variable gene involved in microbial immune response, and chr 21/22 due to their smaller sizes allowing for test processing.
+We utilized phased variant call format (VCF) files for chromosomes 6, 8, 21, and 22 from the 1000 Genomes Project. These VCF files were pre-phased using SHAPEIT2. We selected chr 6 as it was used by prior groups, chr 8 as it contains beta defensin, a highly variable gene involved in microbial immune response of interest to our group, and chr 21/22 due to their smaller sizes allowing for test processing.
 
 #### Step 2: Converting the Data
 
@@ -54,13 +54,13 @@ The HAP files were preprocessed with the following steps:
 
 #### Step 4: Generating ARGs
 
-To additionally prepare the data for generation of ARGs, a map file was additional required...
+To additionally prepare the data for generation of ARGs, a map file was additionally required...
 
 #### Step 5: Clustering Analysis and Visualization
 
 Clustering/unsupervised machine learning pipelines were initially established using the ARGN file generated from the example SNP data described in the ARG-Needle [manual](https://palamaralab.github.io/software/argneedle/manual/#quickstart).
 
-A tree visualization method for the ARGs that improves on the efforts of prior hackathon teams was similarly produced from the ARG-Needle example SNP data using tskit.
+A tree visualization method for the ARGs that extends the efforts of prior hackathon teams was similarly produced from the ARG-Needle example SNP data using tskit.
 
 ### Results
 
