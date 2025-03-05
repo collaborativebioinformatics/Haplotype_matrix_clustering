@@ -64,7 +64,7 @@ plink_hap_snp_reformat_dx_upload "chr8"
 plink_hap_snp_reformat_dx_upload "chr21"
 plink_hap_snp_reformat_dx_upload "chr22"
 # need this deduplicated
-function plink_hap_snp_reformat_dx_upload () {
+function plink_hap_snp_dedup_reformat_dx_upload () {
 # note some files are VCF and some are gzipped VCF (either one or other, not both)
 # plink hap extraction with variant relabeling (no missing variant IDs)
 plink2 --vcf $(ls /mnt/project/data/vcf/ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf* | head -n 1) --rm-dup force-first --snps-only 'just-acgt' --new-id-max-allele-len 280 --set-missing-var-ids @:#[b37]\$r --export haps --out ALL.${1}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.snps --max-alleles 2
