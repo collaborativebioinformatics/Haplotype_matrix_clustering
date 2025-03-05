@@ -70,7 +70,9 @@ To characterize the haplotypes based on clinical significance, we used the vcf f
 
 [Population Abbreviations](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_populations.md)
 
-<<TBD>>
+![image](DEFB1.png)
+
+![image](HLA.png)
 
 ### Discussion
 
