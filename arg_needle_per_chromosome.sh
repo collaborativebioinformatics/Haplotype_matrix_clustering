@@ -33,4 +33,5 @@ arg_needle --hap_gz /mnt/project/data/hap/ALL.chr${1}.phase3_shapeit2_mvncall_in
 --out chr${1} \
 --mode sequence \
 --chromosome ${1}
+dx upload chr${1}.argn --path /data/ARGs/chr${1}.argn
 }
