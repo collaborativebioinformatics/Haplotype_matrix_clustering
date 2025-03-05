@@ -54,7 +54,7 @@ The HAP files were preprocessed with the following steps:
 
 #### Step 4: Generating ARGs
 
-To additionally prepare the data for generation of ARGs, both map and hap files needed to be modified so that positions to be arranged in monotonically increasing order by removing duplicated variants. In accordance with [Zhang et. al 2023](https://www.nature.com/articles/s41588-023-01379-x), we performed ARG inference in parallel by dividing phased data into equal, non-overlapping chunks, and performing ARG inference on each chunk.
+To additionally prepare the data for generation of ARGs, both map and hap files needed to be modified so that positions to be arranged in monotonically increasing order by removing duplicated variants. In accordance with [@zhang2023][Zhang et. al 2023](https://www.nature.com/articles/s41588-023-01379-x), we performed ARG inference in parallel by dividing phased data into equal, non-overlapping chunks, and performing ARG inference on each chunk.
 
 #### Step 5: Clustering Analysis and Visualization
 
