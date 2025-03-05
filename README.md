@@ -68,6 +68,8 @@ To characterize the haplotypes based on clinical significance, we used the vcf f
 
 ![image](1000g_pca.webp)
 
+[Population Abbreviations](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_populations.md)
+
 <<TBD>>
 
 ### Discussion
@@ -81,9 +83,13 @@ Additional potential approaches to this issue could include using alternative to
 
 ### References
 
-[1] Vitale, D., Koretsky, M. J., Kuznetsov, N., Hong, S., Martin, J., James, M., Makarious, M. B., Leonard, H., Iwaki, H., Faghri, F., Blauwendraat, C., Singleton, A. B., Song, Y., Levine, K., Kumar-Sreelatha, A. A., Fang, Z.-H., & Nalls, M. (2025). GenoTools: an open-source Python package for efficient genotype data quality control and analysis. G3 Genes|Genomes|Genetics, 15(1), jkae268. https://doi.org/10.1093/g3journal/jkae268
+[1] Sudmant, P. H., Rausch, T., Gardner, E. J., Handsaker, R. E., Abyzov, A., Huddleston, J., ... & Eichler, E. E. (2015). An integrated map of structural variation in 2,504 human genomes. *Nature*, 526(7571), 75-81. https://doi.org/10.1038/nature15394
 
-[2] Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. *Nature Genetics*, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
+[2] The 1000 Genomes Project Consortium. (2015). A global reference for human genetic variation. *Nature*, 526(7571), 68-74. https://doi.org/10.1038/nature15393
+
+[3] Vitale, D., Koretsky, M. J., Kuznetsov, N., Hong, S., Martin, J., James, M., Makarious, M. B., Leonard, H., Iwaki, H., Faghri, F., Blauwendraat, C., Singleton, A. B., Song, Y., Levine, K., Kumar-Sreelatha, A. A., Fang, Z.-H., & Nalls, M. (2025). GenoTools: an open-source Python package for efficient genotype data quality control and analysis. *G3 Genes|Genomes|Genetics*, 15(1), jkae268. https://doi.org/10.1093/g3journal/jkae268
+
+[4] Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. *Nature Genetics*, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
 
 #### Packages/Tools Used
 
