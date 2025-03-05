@@ -49,7 +49,7 @@ The HAP files were preprocessed with the following steps:
 - In the .sample files, the IDs in columns ID_1 and ID_2 were made identical via copying ID_2 to ID_1.
 - In the .haps file, unique IDs were assigned to variants with missing identifiers.
 - The maximum allele length was set to 280 to standardize input data.
-- Combining it with columns 2-4 from the original sample file to create a new SNP name/ID.
+- A new SNP name/ID was created by combining with columns 2-4 from the original sample file.
 - Creating a new sample file with the modified format.
 
 #### Step 4: Generating ARGs
@@ -72,9 +72,16 @@ To characterize the haplotypes based on clinical significance, we used the vcf f
 
 ### Discussion
 
+Although we were able to establish methods to perform clustering and annotation analysis of example ARG-needle data, a sticking point in our overall pipeline development was the difficulty of successfully producing ARGN files from the chromosome-level 1000 Genomes haplotype data.
+
+One potential cause of the problems we’ve been experiencing with ARG-needle in this project could be because we’ve been trying to work with a highly diverse population from the 1000 Genomes project. ARG construction with ARG-needle relies on threading of samples into the graph based on similarity to other individuals, but ARG-needle was primarily tested on samples from the UK Biobank [(Zhang et. al 2023)](https://www.nature.com/articles/s41588-023-01379-x), representing a highly homogenous population. For our purposes, selecting a more homogenous subpopulation from the 1000 Genomes data on which to run ARG construction could work better.
+
+
 <<TBD>>
 
 ### References
+
+Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination enables genealogical analysis of complex traits. Nature Genetics, 55, 768–776. https://doi.org/10.1038/s41588-023-01379-x.
 
 #### Packages/Tools Used
 
