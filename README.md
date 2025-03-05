@@ -54,7 +54,7 @@ The HAP files were preprocessed with the following steps:
 
 #### Step 4: Generating ARGs
 
-To additionally prepare the data for generation of ARGs, a map file was additionally required...
+To additionally prepare the data for generation of ARGs, both map and hap files needed to be modified so that positions to be arranged in monotonically increasing order by removing duplicated variants. In accordance with [Zhang et. al 2023](https://www.nature.com/articles/s41588-023-01379-x), we performed ARG inference in parallel by dividing phased data into equal, non-overlapping chunks, and performing ARG inference on each chunk.
 
 #### Step 5: Clustering Analysis and Visualization
 
@@ -62,7 +62,11 @@ Clustering/unsupervised machine learning pipelines were initially established us
 
 A tree visualization method for the ARGs that extends the efforts of prior hackathon teams was similarly initially produced from the ARG-Needle example SNP data using tskit.
 
+Running clustering analysis/hierarchical clustering on haps data...
+
 ### Results
+
+More things- Emrah used the vcf files to isolate biallelic SNPS, then used OpenCravat to annotate chromosomes with ClinVar ACMG annotation...
 
 <<TBD>>
 
@@ -79,3 +83,5 @@ A tree visualization method for the ARGs that extends the efforts of prior hacka
 [ARG-Needle](https://palamaralab.github.io/software/argneedle/) and [source publication](https://www.nature.com/articles/s41588-023-01379-x)
 
 [tskit](https://tskit.dev/tskit/docs/stable/introduction.html)
+
+[interpolate-genetic-position](https://github.com/lightning-auriga/interpolate-genetic-position)
