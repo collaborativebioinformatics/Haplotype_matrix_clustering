@@ -83,16 +83,10 @@ Zhang, B., Biddanda, A., Gunnarsson, A. F., Cooper, F., & Palamara, P. F. (2023)
 
 #### Packages/Tools Used
 
-[PLINK2](https://www.cog-genomics.org/plink/2.0/)
-
-[ARG-Needle](https://palamaralab.github.io/software/argneedle/) and [source publication](https://www.nature.com/articles/s41588-023-01379-x)
-
-[tskit](https://tskit.dev/tskit/docs/stable/introduction.html)
-
-[interpolate-genetic-position](https://github.com/lightning-auriga/interpolate-genetic-position)
-
-[OpenCravat](https://docs.opencravat.org/en/latest/)
-
-[DNANexus](https://platform.dnanexus.com/)
-
-[JupyterLab](https://jupyter.org/)
+- [PLINK2](https://www.cog-genomics.org/plink/2.0/)
+- [ARG-Needle](https://palamaralab.github.io/software/argneedle/) and [source publication](https://www.nature.com/articles/s41588-023-01379-x)
+- [tskit](https://tskit.dev/tskit/docs/stable/introduction.html)
+- [interpolate-genetic-position](https://github.com/lightning-auriga/interpolate-genetic-position)
+- [OpenCravat](https://docs.opencravat.org/en/latest/)
+- [DNANexus](https://platform.dnanexus.com/)
+- [JupyterLab](https://jupyter.org/)
