@@ -1,5 +1,7 @@
 # Clustering of Haplotype Matrices
 
+> CMU Machine Learning and AI Approaches to Multimodal Problems in CompBio Hackathon 2025 - Group 1
+
 **Team Members:** 
 
 - Jon Moller
