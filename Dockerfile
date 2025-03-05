@@ -29,3 +29,12 @@ RUN wget -q ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr6.p
     wget -q ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr8.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi && \
     wget -q ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi && \
     wget -q ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr22.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+
+# Copy preprocessing scripts into the container
+COPY 001_preprocess.sh /app/001_preprocess.sh
+
+# Make the script executable
+RUN chmod +x /app/001_preprocess.sh
+
+# Run the preprocessing script after downloading the data
+CMD ["/bin/bash", "/app/001_preprocess.sh"]
