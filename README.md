@@ -80,9 +80,9 @@ Whole-genome data of all 1000 Genomes participants was processed in PLINK2 to ex
 #### HLA
 ![image](HLA.png)
 
-X-axis: Variants in each possible 1KG haplotype
-Y-axis: 1KG individuals
-Next step: annotate based on population/subpopulation on Y-axis (colors)
+X-axis: Variants in each possible 1KG haplotype  
+Y-axis: 1KG individuals  
+Next step: annotate based on population/subpopulation on Y-axis (colors)  
 
 x-axis- clustering by individual; y- clustering by SNPs
 
